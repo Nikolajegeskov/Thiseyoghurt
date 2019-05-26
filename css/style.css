@@ -5,14 +5,15 @@ body {
     height: 100%;
     margin: 0;
 }
-
+h1,h2,h3,h4,h5{font-family:'Merriweather';
+color:#5C526E ;}
 nav {
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
     line-height: 70px;
 }
-
+p{font-family 'merriweather';}
 .menu {
     display: flex;
     background-color: #5C526E;
