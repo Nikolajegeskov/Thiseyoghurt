@@ -1,10 +1,17 @@
 /************************navbar mobile*************************/
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+   
 }
+.forside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
 h1,h2,h3,h5{font-family:'Merriweather';
 color:#5C526E ;}
 nav {
@@ -43,7 +50,7 @@ label {
     display: none;
     background-color: #5C526E;
 }
-
+.besogesiden{}
 #toggle {
     display: none;
 }
@@ -249,7 +256,7 @@ align-items: center;}
 
  .logo img{width: 70%;
 height: auto;
-    padding-left: 50px;;}   
+    }   
 
 }
 
@@ -496,16 +503,19 @@ padding-bottom: 40px;}
 /**************opskrift laptop**********/
     .opskrift1 {display: flex;
 flex-direction: row;
-        justify-content: center
+        justify-content: space-around;
 }
     .overskirftop{margin-top: 20px;}
     
     .tekstopskrift1{padding-left: 300px;}
         .opskrift2 {display: flex;
 flex-direction: row;
-            justify-content: center;
+            justify-content: space-around;
+
 }
-    .opskrift2 img {padding-bottom: 30px}
+    .opskrift2 img {padding-bottom: 30px;
+width:104%;
+height: auto; }
   
  /************om os laptop********************/
 
